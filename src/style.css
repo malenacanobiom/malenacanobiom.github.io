@@ -1,0 +1,335 @@
+:root{
+    --Negro: #404040;
+    --Verde-primario: #BECFBB;
+    --Verde-secundario: #DFE4DB;
+    --Blanco: #F0EFEB
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: var(--Blanco);
+}
+
+p, h1, h2, h3, h4, h5{
+    color: var(--Negro);
+}
+
+p{
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+.miboton{
+    border: solid 2px var(--Negro);
+    background-color: transparent;
+    text-transform: uppercase !important;
+    border-radius: 0 50px 50px 0;
+    transition: border-width 0.5s;
+    font-weight: 600;
+    color: var(--Negro, #404040);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    min-width: max-content!important;
+}
+
+.miboton-pill{
+    border: solid 2px var(--Negro);
+    background-color: transparent;
+    text-transform: uppercase !important;
+    border-radius: 50px!important;
+    transition: border-width 0.3s;
+    font-weight: 600;
+    color: var(--Negro, #404040);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    min-width: max-content!important;
+}
+
+.miboton:hover, .miboton-pill:hover{
+    outline: 2px solid var(--Negro); 
+
+}
+
+
+.logo{
+    font-family: 'Ultra', serif;
+}
+
+header{
+    border-bottom: 2px solid var(--Negro);
+}
+
+
+.titulo-grande{
+    font-family: Ultra;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo-chico{
+    color: var(--Negro, #404040);
+    /* h2 */
+    font-family: Ultra;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitulo-chico{
+font-family: Ubuntu;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+img{
+    width: 100%;
+    width: -webkit-fill-available;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h-550{
+    height: 500px;
+}
+
+
+
+
+.div-texto-pill{
+    background-color: var(--Verde-secundario);
+    border-radius: 50px;
+    padding: 5%;
+}
+
+.linea-div-texto-pill{
+    
+    height: 2px;
+    background-color: var(--Negro);
+    margin: 30px;
+}
+
+.sct-border{
+    border-top: solid 2px var(--Negro);
+    border-bottom: solid 2px var(--Negro)
+
+}
+
+.contenedor-sec-2{
+    padding-right: 0;
+}
+.contenedor-sec-2 img{
+    border-radius: 0 0  50% 50%;
+}
+
+.titulo-border{
+    border: 2px solid var(--Negro);
+    border-top: 0px;
+    border-radius: 0 0 100px 100px;
+}
+
+.border-verde{
+    background-color: var(--Verde-primario);
+    height: 2px;
+    margin: 5% 0;
+}
+
+.card-testimonio{
+    background-color: var(--Verde-secundario);
+    padding: 2.5% 2.5% 0 2.5%;
+    height: fit-content;
+    border-radius: 150px 150px 0 0;
+}
+
+.card-testimonio p{
+    height: 125px;
+}
+
+.border-btn{
+    border-bottom: 2px solid var(--Negro);
+}
+
+
+.h-325{
+    height: 325px;
+}
+.h-325 img{
+    border-radius: 0 325px 0 0;
+}
+
+.subtitulo-grande{
+    color: var(--Negro, #404040);
+text-align: center;
+/* Subitulo Grande */
+font-family: Ubuntu;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.icono{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.enter{
+    aspect-ratio: 1/1;
+    max-width: 50px;
+    border: solid 2px var(--Negro);
+    background-color: transparent;
+    text-transform: uppercase !important;
+    border-radius: 50px;
+    transition: border-width 0.3s;
+    font-weight: 600;
+    color: var(--Negro, #404040);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100%;
+}
+
+.border-x{
+    border-left: 2px solid var(--Negro);
+    border-right: 2px solid var(--Negro);
+    height: 200px;
+}
+
+.link-nav{
+    color: var(--Negro, #404040);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 4%;
+}
+
+.mi-input{
+    font-size: 16px;
+    color: var(--Verde-primario);
+    border: 2px solid var(--Verde-primario);
+    background-color: var(--Blanco);
+    border-radius: 50px;
+}
+
+.border-l{
+    border-left: 2px solid var(--Negro);
+}
+
+.form-contacto .mi-input{
+    padding: 5%;
+    margin: 2% 0 5%;
+    text-align: center;
+    
+}
+
+.form-contacto label{
+    margin: 5% 2% 3%;
+}
+
+/* Cambiar el color del fondo del checkbox cuando está marcado */
+.form-check-input:checked {
+    background-color: var(--Verde-primario);
+  }
+  
+  /* Cambiar el color del fondo del checkbox cuando no está marcado */
+  .form-check-input:not(:checked) {
+    background-color: var(--Verde-secundario);
+  }
+
+  .form-contacto .subtitulo-grande{
+    padding-left: 3%;
+    margin-top: 5%;
+  }
+
+  .form-contacto{
+    border: 2px solid var(--Negro);
+    border-bottom: 0px;
+    border-radius: 200px 200px 0 0;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .msj-input{
+    text-align:left!important;
+    width: 100%;
+    padding: 3% 5%!important;
+  }
+
+
+  .trabajando{
+    height: 650px;
+    padding-top: 150px;
+  }
+
+  .trabajando p{
+    padding-top: 50px;
+  }
+
+
+  @media (max-width: 1600px) {
+    .titulo-grande {
+      font-size: 45px; 
+      margin-top: 10%;
+
+    }
+    .titulo-chico{
+        font-size: 35px;
+    }
+  }
+
+/* TAMAÑOS PARA MOBILE */
+@media screen and (max-width: 500px) {
+    .titulo-grande {
+      font-size: 40px;
+    }
+    .titulo-chico{
+        font-size: 25px;
+    }
+    .subtitulo-chico{
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    .mi-input{
+        font-size: 14px;
+    }
+    .btn-mobile {
+        text-transform: uppercase;
+        background-color: transparent;
+        border-radius: 25px;
+        padding: 2%;
+        font-size: 16px;
+    }
+  }

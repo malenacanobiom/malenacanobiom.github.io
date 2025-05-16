@@ -1,0 +1,429 @@
+{
+    "rutas": [
+          {
+        "id": 1,
+        "titulo": "Sendero de las Lagunas",
+        "imagenes": ["SenderoLagunas-1.jpg", "SenderoLagunas-2.jpg", "SenderoLagunas-3.jpg"],
+        "descripcion": "Explora el hermoso sendero que te llevará a través de lagunas cristalinas y exuberante vegetación.",
+        "paisaje": "Bosque",
+        "dificultad": "Media",
+        "longitud": 10,
+        "duracion": "3 horas",
+        "animales": ["Ciervos", "Aves", "Mariposas"],
+        "puntaje": 4.5,
+        "favorito": false,
+        "ubicacion": "Ruta de las Lagunas, Villa General Belgrano, Córdoba",
+        "actividad": "Senderismo",
+        "comentarios": [
+          {
+            "nombre": "Juan Pérez",
+            "avatar": "avatar-juan.jpg",
+            "reseña": "¡Increíble experiencia! El paisaje es impresionante.",
+            "puntaje": 5
+          },
+          {
+            "nombre": "María Rodríguez",
+            "avatar": "avatar-maria.jpg",
+            "reseña": "El sendero es perfecto para toda la familia.",
+            "puntaje": 4
+          }
+        ]
+          },
+
+          {
+        "id": 2,
+        "titulo": "Cerro Aconcagua",
+        "imagenes": ["CerroAconcagua-1.jpg", "CerroAconcagua-2.jpg", "CerroAconcagua-3.jpg"],
+        "descripcion": "Desafía tus límites escalando la montaña más alta de América.",
+        "paisaje": "Montaña",
+        "dificultad": "Difícil",
+        "longitud": 20,
+        "duracion": "2 días",
+        "animales": ["Cóndores", "Llamas", "Pumas"],
+        "puntaje": 4.5,
+        "favorito": true,
+        "ubicacion": "Cerro Aconcagua, Mendoza, Mendoza",
+        "actividad": "Trekking",
+        "comentarios": [
+          {
+            "nombre": "Carlos",
+            "avatar": "avatar-carlos.jpg",
+            "reseña": "Una experiencia extrema pero gratificante.",
+            "puntaje": 4
+          },
+          {
+            "nombre": "Laura",
+            "avatar": "avatar-laura.jpg",
+            "reseña": "Las vistas desde la cima son inolvidables.",
+            "puntaje": 5
+          }
+        ]
+          },
+      
+         {
+      "id": 3,
+      "titulo": "Circuito de los Glaciares",
+      "imagenes": ["CircuitoGlaciares-1.jpg", "CircuitoGlaciares-2.jpg", "CircuitoGlaciares-3.jpg"],
+      "descripcion": "Recorre un impresionante circuito entre glaciares y paisajes majestuosos.",
+      "paisaje": "Montaña",
+      "dificultad": "Difícil",
+      "longitud": 15,
+      "duracion": "4 días",
+      "animales": ["Águilas", "Zorros", "Liebres"],
+      "puntaje": 4.8,
+      "favorito": true,
+      "ubicacion": "Parque Nacional Los Glaciares, El Calafate, Santa Cruz",
+      "actividad": "Trekking",
+      "comentarios": [
+        {
+          "nombre": "Ana",
+          "avatar": "avatar-ana.jpg",
+          "reseña": "Increíble experiencia, los glaciares son impresionantes.",
+          "puntaje": 5
+        },
+        {
+          "nombre": "Martín",
+          "avatar": "avatar-martin.jpg",
+          "reseña": "El circuito ofrece vistas espectaculares en cada paso.",
+          "puntaje": 4
+        }
+      ]
+         },
+
+         {
+      "id": 4,
+      "titulo": "Caminata a la Laguna Esmeralda",
+      "imagenes": ["LagunaEsmeralda-1.jpg", "LagunaEsmeralda-2.jpg", "LagunaEsmeralda-3.jpg"],
+      "descripcion": "Descubre la belleza de la laguna esmeralda en una caminata rodeada de paisajes asombrosos.",
+      "paisaje": "Bosque",
+      "dificultad": "Media",
+      "longitud": 12,
+      "duracion": "4 horas",
+      "animales": ["Castores", "Conejos", "Chingolos"],
+      "puntaje": 4.2,
+      "favorito": false,
+      "ubicacion": "Ushuaia, Tierra del Fuego",
+      "actividad": "Senderismo",
+      "comentarios": [
+        {
+          "nombre": "Luisa",
+          "avatar": "avatar-luisa.jpg",
+          "reseña": "La laguna es simplemente hermosa, vale la pena la caminata.",
+          "puntaje": 4
+        }
+      ]
+         },
+
+         {
+      "id": 5,
+      "titulo": "Ruta de las Yungas",
+      "imagenes": ["RutaYungas-1.jpg", "RutaYungas-2.jpg", "RutaYungas-3.jpg"],
+      "descripcion": "Explora la exuberante selva de las yungas en esta increíble ruta de senderismo.",
+      "paisaje": "Selva",
+      "dificultad": "Media",
+      "longitud": 18,
+      "duracion": "5 horas",
+      "animales": ["Tucanes", "Monos", "Jaguatiricas"],
+      "puntaje": 4.6,
+      "favorito": true,
+      "ubicacion": "San Lorenzo, Salta",
+      "actividad": "Senderismo",
+      "comentarios": [
+        {
+          "nombre": "Diego",
+          "avatar": "avatar-diego.jpg",
+          "reseña": "Una experiencia única en plena naturaleza.",
+          "puntaje": 5
+        },
+        {
+          "nombre": "Elena",
+          "avatar": "avatar-elena.jpg",
+          "reseña": "La diversidad de flora y fauna es asombrosa.",
+          "puntaje": 4
+        }
+      ]
+         },
+
+        {
+    "id": 6,
+    "titulo": "Caminata a la Cascada del Diablo",
+    "imagenes": ["CascadaDiablo-1.jpg", "CascadaDiablo-2.jpg", "CascadaDiablo-3.jpg"],
+    "descripcion": "Embárcate en una emocionante caminata hacia la majestuosa Cascada del Diablo rodeada de naturaleza salvaje.",
+    "paisaje": "Bosque",
+    "dificultad": "Media",
+    "longitud": 8,
+    "duracion": "2 horas",
+    "animales": ["Mapaches", "Tucanes", "Osos hormigueros"],
+    "puntaje": 4.0,
+    "favorito": false,
+    "ubicacion": "El Bolsón, Río Negro",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Lucía",
+        "avatar": "avatar-lucia.jpg",
+        "reseña": "La cascada es impresionante, vale la pena la caminata.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 7,
+    "titulo": "Travesía por la Pampa",
+    "imagenes": ["TravesiaPampa-1.jpg", "TravesiaPampa-2.jpg", "TravesiaPampa-3.jpg"],
+    "descripcion": "Experimenta la vastedad de la pampa argentina en una emocionante travesía a través de paisajes abiertos y campos interminables.",
+    "paisaje": "Pampa",
+    "dificultad": "Fácil",
+    "longitud": 25,
+    "duracion": "1 día",
+    "animales": ["Lebres", "Avutardas", "Guanacos"],
+    "puntaje": 4.7,
+    "favorito": true,
+    "ubicacion": "La Pampa, La Pampa",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Roberto",
+        "avatar": "avatar-roberto.jpg",
+        "reseña": "Una experiencia única en la inmensidad de la pampa.",
+        "puntaje": 5
+      },
+      {
+        "nombre": "Silvia",
+        "avatar": "avatar-silvia.jpg",
+        "reseña": "Perfecto para una escapada de un día.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 8,
+    "titulo": "Expedición al Volcán Lanín",
+    "imagenes": ["ExpedicionLanin-1.jpg", "ExpedicionLanin-2.jpg", "ExpedicionLanin-3.jpg"],
+    "descripcion": "Embárcate en una emocionante expedición hasta la cima del Volcán Lanín, una de las maravillas naturales de la Patagonia.",
+    "paisaje": "Montaña",
+    "dificultad": "Difícil",
+    "longitud": 30,
+    "duracion": "3 días",
+    "animales": ["Cóndores", "Zorros", "Pumas"],
+    "puntaje": 4.9,
+    "favorito": true,
+    "ubicacion": "San Martín de los Andes, Neuquén",
+    "actividad": "Trekking",
+    "comentarios": [
+      {
+        "nombre": "Jorge",
+        "avatar": "avatar-jorge.jpg",
+        "reseña": "La vista desde la cima del volcán es asombrosa.",
+        "puntaje": 5
+      },
+      {
+        "nombre": "Mariana",
+        "avatar": "avatar-mariana.jpg",
+        "reseña": "Una experiencia desafiante pero gratificante.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 9,
+    "titulo": "Ascenso al Cerro Fitz Roy",
+    "imagenes": ["CerroFitzRoy-1.jpg", "CerroFitzRoy-2.jpg", "CerroFitzRoy-3.jpg"],
+    "descripcion": "Desafía tus límites escalando el icónico Cerro Fitz Roy, una maravilla natural de la Patagonia.",
+    "paisaje": "Montaña",
+    "dificultad": "Difícil",
+    "longitud": 15,
+    "duracion": "2 días",
+    "animales": ["Cóndores", "Guillemotes", "Pumas"],
+    "puntaje": 4.8,
+    "favorito": true,
+    "ubicacion": "El Chaltén, Santa Cruz",
+    "actividad": "Trekking",
+    "comentarios": [
+      {
+        "nombre": "Andrea",
+        "avatar": "avatar-andrea.jpg",
+        "reseña": "Una experiencia inolvidable, las vistas son increíbles.",
+        "puntaje": 5
+      },
+      {
+        "nombre": "Gabriel",
+        "avatar": "avatar-gabriel.jpg",
+        "reseña": "El ascenso es desafiante pero vale la pena.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 10,
+    "titulo": "Sendero de los Siete Lagos",
+    "imagenes": ["Sendero7Lagos-1.jpg", "Sendero7Lagos-2.jpg", "Sendero7Lagos-3.jpg"],
+    "descripcion": "Recorre un impresionante sendero que te lleva a través de los mágicos Siete Lagos de la Patagonia.",
+    "paisaje": "Bosque",
+    "dificultad": "Media",
+    "longitud": 25,
+    "duracion": "2 días",
+    "animales": ["Cervatos", "Águilas", "Castores"],
+    "puntaje": 4.6,
+    "favorito": true,
+    "ubicacion": "San Martín de los Andes, Neuquén",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Miguel",
+        "avatar": "avatar-miguel.jpg",
+        "reseña": "Los lagos son increíbles, un paseo relajante.",
+        "puntaje": 4
+      },
+      {
+        "nombre": "Ana María",
+        "avatar": "avatar-anamaria.jpg",
+        "reseña": "Caminar junto a los lagos es una experiencia única.",
+        "puntaje": 5
+      }
+    ]
+        },
+
+        {
+    "id": 11,
+    "titulo": "Circuito del Valle de la Luna",
+    "imagenes": ["ValleLuna-1.jpg", "ValleLuna-2.jpg", "ValleLuna-3.jpg"],
+    "descripcion": "Explora un paisaje lunar en este fascinante circuito a través del Valle de la Luna.",
+    "paisaje": "Desierto",
+    "dificultad": "Media",
+    "longitud": 10,
+    "duracion": "3 horas",
+    "animales": ["Zorros", "Lagartijas", "Águilas"],
+    "puntaje": 4.2,
+    "favorito": false,
+    "ubicacion": "La Rioja, La Rioja",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Julia",
+        "avatar": "avatar-julia.jpg",
+        "reseña": "El paisaje parece de otro mundo, una experiencia surrealista.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 12,
+    "titulo": "Senda del Glaciar Perito Moreno",
+    "imagenes": ["GlaciarPeritoMoreno-1.jpg", "GlaciarPeritoMoreno-2.jpg", "GlaciarPeritoMoreno-3.jpg"],
+    "descripcion": "Recorre la impresionante Senda del Glaciar Perito Moreno y disfruta de vistas panorámicas de uno de los glaciares más famosos del mundo.",
+    "paisaje": "Montaña",
+    "dificultad": "Media",
+    "longitud": 12,
+    "duracion": "4 horas",
+    "animales": ["Focas", "Elefantes marinos", "Cóndores"],
+    "puntaje": 4.7,
+    "favorito": true,
+    "ubicacion": "El Calafate, Santa Cruz",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Fernando",
+        "avatar": "avatar-fernando.jpg",
+        "reseña": "Una experiencia única junto al imponente glaciar.",
+        "puntaje": 5
+      },
+      {
+        "nombre": "Laura",
+        "avatar": "avatar-laura2.jpg",
+        "reseña": "Las vistas son simplemente espectaculares.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 13,
+    "titulo": "Ruta de las Cataratas",
+    "imagenes": ["Cataratas-1.jpg", "Cataratas-2.jpg", "Cataratas-3.jpg"],
+    "descripcion": "Descubre la majestuosidad de la naturaleza en la Ruta de las Cataratas, rodeada de impresionantes cascadas y exuberante vegetación.",
+    "paisaje": "Cascada",
+    "dificultad": "Media",
+    "longitud": 15,
+    "duracion": "3 horas",
+    "animales": ["Tucanes", "Mariposas", "Monos"],
+    "puntaje": 4.5,
+    "favorito": true,
+    "ubicacion": "Puerto Iguazú, Misiones",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Camila",
+        "avatar": "avatar-camila.jpg",
+        "reseña": "Las cataratas son impresionantes, un espectáculo natural.",
+        "puntaje": 5
+      },
+      {
+        "nombre": "Ricardo",
+        "avatar": "avatar-ricardo.jpg",
+        "reseña": "La ruta es perfecta para los amantes de la naturaleza.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 14,
+    "titulo": "Caminata al Salto del Agrio",
+    "imagenes": ["SaltoAgrio-1.jpg", "SaltoAgrio-2.jpg", "SaltoAgrio-3.jpg"],
+    "descripcion": "Embárcate en una caminata hacia el impresionante Salto del Agrio, una cascada enclavada en un entorno natural único.",
+    "paisaje": "Cascada",
+    "dificultad": "Media",
+    "longitud": 10,
+    "duracion": "2 horas",
+    "animales": ["Truchas", "Aves", "Zorros"],
+    "puntaje": 4.3,
+    "favorito": false,
+    "ubicacion": "Caviahue, Neuquén",
+    "actividad": "Senderismo",
+    "comentarios": [
+      {
+        "nombre": "Isabel",
+        "avatar": "avatar-isabel.jpg",
+        "reseña": "El Salto del Agrio es un tesoro escondido.",
+        "puntaje": 4
+      }
+    ]
+        },
+
+        {
+    "id": 15,
+    "titulo": "Circuito de las Sierras Grandes",
+    "imagenes": ["SierrasGrandes-1.jpg", "SierrasGrandes-2.jpg", "SierrasGrandes-3.jpg"],
+    "descripcion": "Explora el impresionante Circuito de las Sierras Grandes, rodeado de imponentes formaciones montañosas y pintorescos paisajes.",
+    "paisaje": "Montaña",
+    "dificultad": "Difícil",
+    "longitud": 30,
+    "duracion": "3 días",
+    "animales": ["Cóndores", "Guerreros", "Pumas"],
+    "puntaje": 4.8,
+    "favorito": true,
+    "ubicacion": "Villa Dolores, Córdoba",
+    "actividad": "Trekking",
+    "comentarios": [
+      {
+        "nombre": "Martina",
+        "avatar": "avatar-martina.jpg",
+        "reseña": "El circuito ofrece vistas espectaculares y desafíos emocionantes.",
+        "puntaje": 5
+      },
+      {
+        "nombre": "Javier",
+        "avatar": "avatar-javier.jpg",
+        "reseña": "Una experiencia de trekking que vale la pena repetir.",
+        "puntaje": 4
+      }
+    ]
+        }
+    ]
+}
